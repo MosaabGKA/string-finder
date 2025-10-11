@@ -225,7 +225,15 @@ Each algorithm reports its **execution time** using the `timeit` module, allowin
 
 ## Screenshots
 
-> (You can add screenshots here after running the app)
+![SS1](./assets/SS1.png)
+![SS2](./assets/SS2.png)
+![SS3](./assets/SS3.png)
+![SS4](./assets/SS4.png)
+![SS5](./assets/SS5.png)
+![SS6](./assets/SS6.png)
+![SS7](./assets/SS7.png)
+![SS8](./assets/SS8.png)
+![SS9](./assets/SS9.png)
 
 ## Future Improvements
 
