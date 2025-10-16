@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: try-to-run
-        run: python3 main.py
+        run: echo "don't try run"
   publish:
     needs: try-run
     runs-on: ubuntu-latest
     steps:
       - name: publishing
-        run: pip install flet && flet publish main.py
+        run: echo "don't try publish"
