@@ -1,0 +1,14 @@
+name: publish
+on: push
+jobs:
+  try-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: try-to-run
+        run: python3 main.py
+  publish:
+    needs: try-run
+    runs-on: ubuntu-latest
+    steps:
+      - name: publishing
+        run: pip install flet && flet publish main.py
